@@ -1,0 +1,105 @@
+
+***Testcase1:
+*Input:
+Nhap thoi gian thu nhat:
+Nhap gio: 1
+Nhap phut: 30
+Nhap giay: 45
+Nhap thoi gian thu hai:
+Nhap gio: 2
+Nhap phut: 15
+Nhap giay: 30
+*Output:
+Tong hai thoi gian: 3h:46m:15s
+Hieu hai thoi gian: 0h:44m:15s
+Thoi gian tg1 + 120 giay: 1h:32m:45s
+Thoi gian tg1 - 120 giay: 1h:28m:45s
+tg1 == tg2: false
+tg1 != tg2: true
+tg1 > tg2: false
+tg1 < tg2: true
+-----------------------------
+
+***Testcase2:
+*Input:
+Nhap thoi gian thu nhat:
+Nhap gio: 0
+Nhap phut: 59
+Nhap giay: 30
+Nhap thoi gian thu hai:
+Nhap gio: 0
+Nhap phut: 1
+Nhap giay: 0
+*Output:
+Tong hai thoi gian: 1h:0m:30s
+Hieu hai thoi gian: 0h:58m:30s
+Thoi gian tg1 + 120 giay: 1h:1m:30s
+Thoi gian tg1 - 120 giay: 0h:57m:30s
+tg1 == tg2: false
+tg1 != tg2: true
+tg1 > tg2: true
+tg1 < tg2: false
+-----------------------------
+
+***Testcase3:
+*Input:
+Nhap thoi gian thu nhat:
+Nhap gio: 1
+Nhap phut: 0
+Nhap giay: 0
+Nhap thoi gian thu hai:
+Nhap gio: 1
+Nhap phut: 0
+Nhap giay: 0
+*Output:
+Tong hai thoi gian: 2h:0m:0s
+Hieu hai thoi gian: 0h:0m:0s
+Thoi gian tg1 + 120 giay: 1h:2m:0s
+Thoi gian tg1 - 120 giay: 0h:58m:0s
+tg1 == tg2: true
+tg1 != tg2: false
+tg1 > tg2: false
+tg1 < tg2: false
+-----------------------------
+
+***Testcase4:
+*Input:
+Nhap thoi gian thu nhat:
+Nhap gio: 2
+Nhap phut: 30
+Nhap giay: 0
+Nhap thoi gian thu hai:
+Nhap gio: 0
+Nhap phut: 0
+Nhap giay: 30
+*Output:
+Tong hai thoi gian: 2h:30m:30s
+Hieu hai thoi gian: 2h:29m:30s
+Thoi gian tg1 + 120 giay: 2h:32m:0s
+Thoi gian tg1 - 120 giay: 2h:28m:0s
+tg1 == tg2: false
+tg1 != tg2: true
+tg1 > tg2: true
+tg1 < tg2: false
+-----------------------------
+
+***Testcase5:
+*Input:
+Nhap thoi gian thu nhat:
+Nhap gio: 0
+Nhap phut: 0
+Nhap giay: 15
+Nhap thoi gian thu hai:
+Nhap gio: 0
+Nhap phut: 0
+Nhap giay: 10
+*Output:
+Tong hai thoi gian: 0h:0m:25s
+Hieu hai thoi gian: 0h:0m:5s
+Thoi gian tg1 + 120 giay: 0h:2m:15s
+Thoi gian tg1 - 120 giay: 0h:0m:0s
+tg1 == tg2: false
+tg1 != tg2: true
+tg1 > tg2: true
+tg1 < tg2: false
+-----------------------------
