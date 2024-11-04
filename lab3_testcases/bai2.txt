@@ -1,0 +1,79 @@
+***Testcase1:
+*Input:
+Nhap so phuc thu nhat:
+Nhap phan thuc: 1
+Nhap phan ao: 2
+Nhap so phuc thu hai:
+Nhap phan thuc: 3
+Nhap phan ao: 4
+*Output:
+Tong: 4 + 6i
+Hieu: -2 - 2i
+Tich: -5 + 10i
+Thuong: 0.44 + 0.08i
+sp1 == sp2: false
+sp1 != sp2: true
+-----------------------------
+***Testcase2:
+*Input:
+Nhap so phuc thu nhat:
+Nhap phan thuc: -1
+Nhap phan ao: 0
+Nhap so phuc thu hai:
+Nhap phan thuc: 0
+Nhap phan ao: 1
+*Output:
+Tong: -1 + 1i
+Hieu: -1 - 1i
+Tich: 0 + -1i
+Thuong: 0 - 1i
+sp1 == sp2: false
+sp1 != sp2: true
+-----------------------------
+***Testcase3:
+*Input:
+Nhap so phuc thu nhat:
+Nhap phan thuc: 0
+Nhap phan ao: 0
+Nhap so phuc thu hai:
+Nhap phan thuc: 1
+Nhap phan ao: 1
+*Output:
+Tong: 1 + 1i
+Hieu: -1 - 1i
+Tich: 0 + 0i
+Thuong: 1 + 1i
+sp1 == sp2: false
+sp1 != sp2: true
+-----------------------------
+***Testcase4:
+*Input:
+Nhap so phuc thu nhat:
+Nhap phan thuc: 5
+Nhap phan ao: 5
+Nhap so phuc thu hai:
+Nhap phan thuc: 5
+Nhap phan ao: -5
+*Output:
+Tong: 10 + 0i
+Hieu: 0 + 10i
+Tich: 0 + 50i
+Thuong: 0 + -1i
+sp1 == sp2: false
+sp1 != sp2: true
+-----------------------------
+***Testcase5:
+*Input:
+Nhap so phuc thu nhat:
+Nhap phan thuc: 1
+Nhap phan ao: 1
+Nhap so phuc thu hai:
+Nhap phan thuc: 1
+Nhap phan ao: 1
+*Output:
+Tong: 2 + 2i
+Hieu: 0 + 0i
+Tich: 0 + 2i
+Thuong: 1 + 0i
+sp1 == sp2: true
+sp1 != sp2: false
