@@ -1,1 +1,90 @@
-
+***Testcase1:
+*Input:
+Nhap phan so thu nhat:
+Nhap tu so: 1
+Nhap mau so: 2
+Nhap phan so thu hai:
+Nhap tu so: 1
+Nhap mau so: 3
+*Output:
+Tong: 5/6
+Hieu: 1/6
+Tich: 1/6
+Thuong: 3/2
+ps1 == ps2: false
+ps1 != ps2: true
+ps1 > ps2: true
+ps1 < ps2: false
+ps1 >= ps2: true
+ps1 <= ps2: false
+-----------------------------
+***Testcase2:
+*Input:
+Nhap phan so thu nhat:
+Nhap tu so: -3
+Nhap mau so: 4
+Nhap phan so thu hai:
+Nhap tu so: 1
+Nhap mau so: 4
+*Output:
+Tong: -1/2
+Hieu: -1
+Tich: -3/16
+Thuong: -3
+ps1 == ps2: false
+ps1 != ps2: true
+ps1 > ps2: false
+ps1 < ps2: true
+ps1 >= ps2: false
+ps1 <= ps2: true
+-----------------------------
+***Testcase3:
+*Input:
+Nhap phan so thu nhat:
+Nhap tu so: 0
+Nhap mau so: 1
+Nhap phan so thu hai:
+Nhap tu so: 5
+Nhap mau so: 6
+*Output:
+Tong: 5/6
+Hieu: -5/6
+Tich: 0/1
+Thuong: 0/1
+ps1 == ps2: false
+ps1 != ps2: true
+ps1 > ps2: false
+ps1 < ps2: true
+ps1 >= ps2: false
+ps1 <= ps2: true
+-----------------------------
+***Testcase4:
+*Input:
+Nhap phan so thu nhat:
+Nhap tu so: 5
+Nhap mau so: 4
+Nhap phan so thu hai:
+Nhap tu so: 3
+Nhap mau so: 4
+*Output:
+Tong: 2
+Hieu: 1/2
+Tich: 15/16
+Thuong: 5/3
+ps1 == ps2: false
+ps1 != ps2: true
+ps1 > ps2: true
+ps1 < ps2: false
+ps1 >= ps2: true
+ps1 <= ps2: false
+-----------------------------
+***Testcase5:
+*Input:
+Nhap phan so thu nhat:
+Nhap tu so: 2
+Nhap mau so: 3
+Nhap phan so thu hai:
+Nhap tu so: 0
+Nhap mau so: 1
+*Output:
+Loi: Khong the chia cho 0
