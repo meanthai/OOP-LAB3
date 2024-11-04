@@ -1,0 +1,99 @@
+***Testcase1:
+*Input:
+Nhap ngay thang nam thu nhat:
+Nhap nam: 2020
+Nhap thang: 2
+Nhap ngay: 28
+Nhap ngay thang nam thu hai:
+Nhap nam: 2020
+Nhap thang: 3
+Nhap ngay: 1
+*Output:
+Ngay thu nhat + 10 ngay: 9/3/2020
+Ngay thu nhat - 10 ngay: 18/2/2020
+So ngay chenh lech giua hai ngay: -2 ngay
+ngay1 == ngay2: false
+ngay1 != ngay2: true
+ngay1 > ngay2: false
+ngay1 < ngay2: true
+-----------------------------
+
+***Testcase2:
+*Input:
+Nhap ngay thang nam thu nhat:
+Nhap nam: 2019
+Nhap thang: 2
+Nhap ngay: 28
+Nhap ngay thang nam thu hai:
+Nhap nam: 2020
+Nhap thang: 2
+Nhap ngay: 29
+*Output:
+Ngay thu nhat + 10 ngay: 10/3/2019
+Ngay thu nhat - 10 ngay: 18/2/2019
+So ngay chenh lech giua hai ngay: -366 ngay
+ngay1 == ngay2: false
+ngay1 != ngay2: true
+ngay1 > ngay2: false
+ngay1 < ngay2: true
+-----------------------------
+
+***Testcase3:
+*Input:
+Nhap ngay thang nam thu nhat:
+Nhap nam: 2021
+Nhap thang: 12
+Nhap ngay: 31
+Nhap ngay thang nam thu hai:
+Nhap nam: 2022
+Nhap thang: 1
+Nhap ngay: 1
+*Output:
+Ngay thu nhat + 10 ngay: 10/1/2022
+Ngay thu nhat - 10 ngay: 21/12/2021
+So ngay chenh lech giua hai ngay: -1 ngay
+ngay1 == ngay2: false
+ngay1 != ngay2: true
+ngay1 > ngay2: false
+ngay1 < ngay2: true
+-----------------------------
+
+***Testcase4:
+*Input:
+Nhap ngay thang nam thu nhat:
+Nhap nam: 2000
+Nhap thang: 1
+Nhap ngay: 1
+Nhap ngay thang nam thu hai:
+Nhap nam: 1999
+Nhap thang: 12
+Nhap ngay: 31
+*Output:
+Ngay thu nhat + 10 ngay: 11/1/2000
+Ngay thu nhat - 10 ngay: 22/12/1999
+So ngay chenh lech giua hai ngay: 1 ngay
+ngay1 == ngay2: false
+ngay1 != ngay2: true
+ngay1 > ngay2: true
+ngay1 < ngay2: false
+-----------------------------
+
+***Testcase5:
+*Input:
+Nhap ngay thang nam thu nhat:
+Nhap nam: 2023
+Nhap thang: 6
+Nhap ngay: 15
+Nhap ngay thang nam thu hai:
+Nhap nam: 2023
+Nhap thang: 6
+Nhap ngay: 15
+*Output:
+Ngay thu nhat + 10 ngay: 25/6/2023
+Ngay thu nhat - 10 ngay: 5/6/2023
+So ngay chenh lech giua hai ngay: 0 ngay
+ngay1 == ngay2: true
+ngay1 != ngay2: false
+ngay1 > ngay2: false
+ngay1 < ngay2: false
+-----------------------------
