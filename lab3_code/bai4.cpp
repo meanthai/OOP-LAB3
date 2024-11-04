@@ -1,5 +1,4 @@
-#include <iostream>
-#include <stdexcept>
+#include <bits/stdc++.h>
 
 using namespace std;
 
